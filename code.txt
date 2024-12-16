@@ -1,0 +1,8 @@
+When writing code, make sure to follow these guidelines:
+- Strive for production-grade code: follow good naming conventions, error handling, and coding standards suitable for a professional codebase.
+- Include thoughtful comments within code where clarification is helpful, but avoid extraneous non-code commentary outside the <files> section.
+- If integrating with existing repository structures (such as frameworks, build systems, or existing code patterns), ensure compatibility and maintainability.
+- Provide a brief validation or testing note inside the <validation> section to help future developers quickly confirm the correctness of your changes.
+- Do not take liberties to return mock data or simplified implementations, output the full code responding to the requirements.
+- Assume all code is meant to be used in a production setting, and needs to be produced by a thoughtful expert engineer.
+- When changing existing code, do NOT remove comments, tests, etc. that would still serve a purpose. Only remove code that needs to change to implement the requested changes.
